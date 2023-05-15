@@ -3,7 +3,7 @@ import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-
+// handle nav function to toggle the nav bar     
   const handleNav = () => {
     setNav(!nav);
   };
